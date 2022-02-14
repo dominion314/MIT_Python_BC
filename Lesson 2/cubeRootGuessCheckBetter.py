@@ -5,7 +5,7 @@ Created on Wed Jun  8 11:41:14 2016
 @author: ericgrimson
 """
 
-cube = -28
+cube = 28
 for guess in range(abs(cube)+1):
     if guess**3 >= abs(cube):
         break
