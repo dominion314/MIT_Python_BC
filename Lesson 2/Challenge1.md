@@ -1,2 +1,76 @@
-![](2022-02-14-09-09-58.png)
-![](2022-02-14-09-10-29.png)
+For each of the following expressions, indicate the value returned, or if the evaluation would lead to an error, write the word 'error' (note this is a word, not a string, no quotes). While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.
+
+Note: Advanced String Slicing:
+
+    You've seen  that you can slice a string with a call such as s[i:j], which gives you a portion of string s from index i to index j-1. However this is not the only way to slice a string! If you omit the starting index, Python will assume that you wish to start your slice at index 0. If you omit the ending index, Python will assume you wish to end your slice at the end of the string. Check out this session with the Python shell:
+
+    >>> s = 'Python is Fun!'
+    >>> s[1:5]
+    'ytho'
+    >>> s[:5]
+    'Pytho'
+    >>> s[1:]
+    'ython is Fun!'
+    >>> s[:]
+    'Python is Fun!'
+    That last example is interesting! If you omit both the start and ending index, you see your original string!
+
+    There's one other cool thing you can do with string slicing. You can add a third parameter, k, like this: s[i:j:k]. This gives a slice of the string s from index i to index j-1, with step size k. Check out the following examples:
+
+    >>> s = 'Python is Fun!'
+    >>> s[1:12:2]
+    'yhni u'
+    >>> s[1:12:3]
+    'yoiF'
+    >>> s[::2]
+    'Pto sFn'
+    The last example is similar to the example s[:]. With s[::2], we're asking for the full string s (from index 0 through 13), with a step size of 2 - so we end up with every other character in s. Pretty cool!
+
+1.
+    "a" + "bc"
+
+Answer:
+
+    "abc"
+
+2.
+    3 * "bc"
+
+Answer:
+
+    "bcbcbc"
+
+3.
+    "3" * "bc"
+
+Answer:
+
+    error
+
+4.
+    "abcd"[2]
+
+Answer:
+
+    "c"
+
+5.
+    "abcd"[0:2]
+
+Answer:
+
+    "ab"
+
+6.
+    "abcd"[:2]
+
+Answer:
+
+    "ab"
+
+7.
+    "abcd"[2:]
+
+Answer:
+
+    "cd"
