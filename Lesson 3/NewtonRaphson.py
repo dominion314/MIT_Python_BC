@@ -6,7 +6,7 @@ Created on Wed Jun  8 12:14:22 2016
 """
 
 epsilon = 0.01
-y = 54.0
+y = 9
 guess = y/2.0
 numGuesses = 0
 

@@ -8,7 +8,7 @@ Created on Wed Jun  8 11:55:33 2016
 cube = 29
 epsilon = 0.01
 guess = 0.0
-increment = 0.01
+increment = 0.001
 num_guesses = 0
 while abs(guess**3 - cube) >= epsilon and guess <= cube:
     guess += increment
