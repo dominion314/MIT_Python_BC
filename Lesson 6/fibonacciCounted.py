@@ -29,7 +29,7 @@ def fib_efficient(n, d):
         
         
 numFibCalls = 0
-fibArg = 34
+fibArg = 10
 
 print(fib(fibArg))
 print('function calls', numFibCalls)
